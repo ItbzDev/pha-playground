@@ -1,0 +1,8 @@
+openapi: 3.0.2
+info:
+  title: SomeAPI
+  version: 0.0.1
+  contact:
+    name: Phorza Sample API
+    email: sampleapi@phorza.local
+  description: Sample API definition
