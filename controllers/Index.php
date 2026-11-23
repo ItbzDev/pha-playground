@@ -17,8 +17,13 @@ class Index extends \Phorza\Controller {
     
     public function index() {
 
-        $demoLib = library('DemoLib');
-        $this->view->vars['hello'] = $demoLib->hello();
+        $juegos = [
+            ['nombre' => 'Tres en raya', 'ruta' => 'tresenraya/index'],
+            ['nombre' => 'Ahorcado', 'ruta' => 'ahorcado/index'],
+            ['nombre' => 'Adivina la palabra', 'ruta' => 'adivinalapalabra/index'],
+        ];
+        
+        $this->view->vars['juegos'] = $juegos;
 
         $this->view->loadPage('index');
     } // END function()
