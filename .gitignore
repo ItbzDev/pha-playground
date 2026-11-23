@@ -1,0 +1,15 @@
+language/compiled/*
+!language/compiled/.keepme
+
+database/config.php
+database/models/generated/*
+!database/models/generated/.keepme
+
+openapi/controllers/*
+!openapi/controllers/.keepme
+
+openapi/dtos/*
+!openapi/dtos/.keepme
+
+openapi/response_entities/*
+!openapi/response_entities/.keepme
